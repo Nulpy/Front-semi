@@ -116,6 +116,7 @@ section{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    min-height: 60vh;
 
 }
 
@@ -126,10 +127,122 @@ section{
     border-radius: 10px;
 
 }
+
+.s5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+}
+
+.formulario{
+    background-color: #090909;
+    color: #ffff;
+    box-shadow: 0px 3px 10px #090900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+.formulario label{
+    width: 100%;
+    margin-bottom: -10px;
+    padding-left: 2px solid white;
+}
+
+.formulario input{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background: transparent;
+    color: white;
+    border-bottom: 2px solid white;
+    width: 100%;
+}
+/* botao "insra seu nome" */
+ input:focus{
+    outline: none;
+    color: rgb(226, 231, 240);
+    border-bottom: 2px solid cornflowerblue;
+}
+/* borda do "Assunto" */
+textarea{
+    max-width: 250px;
+    min-width: 250px;
+    min-height: 150px;
+    max-height: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    border: 2px solid rgb(240, 235, 235);
+    background: transparent;
+    color: rgb(235, 225, 225);
+}
+
+textarea:focus{
+    outline: none;
+}
+
+/* botao "ENVIAR" */
+button{
+    border: none;
+    border-radius: 5px;
+    border: 2px solid white;
+    padding: 10px;
+    background: cadetblue;
+    color: white;
+    transition: all 200ms linear;
+    width: 100%;
+}
+
+
+button:hover{
+    background:  rgb(216, 38, 38);
+    color: #090909;
+    cursor: pointer;
+}
 a{
     text-decoration: none;
 
 }
+
+.s3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:20px;
+    padding: 10px;
+}
+.card{
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 20px;
+    width:300px;
+    height: 700px;
+    overflow: hidden;
+    border-radius: 40px;
+    box-shadow: 0px 3px 10px #090909;
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+}
+
+.textcard{
+    padding: 20px;
+}
+
+.textCard h4{
+    margin-bottom: 10px;
+}
+
+
 
 footer{
     display: flex;
